@@ -1,0 +1,24 @@
+.MuiContainer-root {
+  width: 50%;
+  background-image: url("../../image/marte.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.container_login {
+  height: 340;
+  width: 30%;
+  background-color: #4e4d4d;
+  margin: auto;
+  margin-top: 180px;
+  box-shadow: 7px 13px 37px #000;
+  padding: 20px 30px;
+}
+.titulo {
+  text-align: center;
+  color: rgb(224, 41, 4);
+  font-weight: 700;
+  text-shadow: 7px 5px 10px #000;
+}
+.logo2 {
+  float: left;
+}

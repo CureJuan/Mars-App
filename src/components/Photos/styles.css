@@ -1,0 +1,46 @@
+.separation {
+  margin-bottom: 16px;
+  justify-content: center;
+}
+.card__color {
+  background-color: rgb(43, 43, 43);
+  color: rgb(47, 152, 30);
+}
+
+.favoritos {
+  color: rgb(255, 106, 0);
+  font-size: 30px;
+  cursor: pointer;
+  float: right;
+}
+
+.favoritos:hover {
+  color: brown;
+}
+.favoritos:disabled {
+  border-color: rgba(118, 118, 118, 0.3);
+  color: rgba(16, 16, 16, 0.3);
+  background-color: rgba(239, 239, 239, 0.3);
+  cursor: default;
+}
+.img {
+  border-radius: 30px;
+}
+.limpiar {
+  color: rgb(255, 188, 2);
+  font-size: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  align-items: center;
+}
+
+.limpiar:hover {
+  color: rgb(111, 22, 22);
+}
+
+.vacio {
+  color: red;
+  text-align: center;
+  padding-left: 20%;
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+.total {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(180, 135, 12) !important;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.total i {
+  margin-top: 16px;
+  padding: 8px;
+}

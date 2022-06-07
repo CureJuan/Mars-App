@@ -1,0 +1,24 @@
+.banner {
+  width: 100%;
+  background-image: url("../../image/bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: rgb(248, 222, 192) !important;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  padding: 0 70px;
+}
+
+.content h1 {
+  padding-top: 120px;
+  padding-left: 20px;
+  color: rgb(192, 20, 20);
+  font-weight: 600;
+  font-size: 52px;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 94, 0),
+    0 0 0.2em rgb(255, 60, 0);
+}

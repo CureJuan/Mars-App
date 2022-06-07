@@ -1,0 +1,39 @@
+@import "components/Photos/styles.css";
+.App {
+  background-color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+.select {
+  color: rgb(254, 20, 20);
+  padding: 10px;
+  display: inline-grid;
+  align-items: center;
+  justify-items: center;
+}
+.form-select {
+  border-radius: 30px;
+  border: none;
+  margin: 8px;
+  padding: 8px;
+  background-color: rgb(43, 43, 43);
+  color: brown;
+}
+.eliminar {
+  background-color: transparent;
+  color: rgb(192, 20, 20);
+  font-size: 20px;
+}
+.ver {
+  background-color: transparent;
+  color: green;
+  font-size: 20px;
+}
+.eliminar:hover {
+  color: rgb(116, 2, 2);
+}
+.ver:hover {
+  color: rgb(19, 62, 1);
+}
